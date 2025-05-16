@@ -1,4 +1,4 @@
-# bmipro
+#fitness tracker
 
 A new Flutter project.
 
