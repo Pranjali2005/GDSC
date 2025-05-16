@@ -1,0 +1,56 @@
+name: bmipro
+description: "A BMI Calculator app with Firebase authentication."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.3
+
+  # Utilities
+  provider: ^6.0.5
+  fluttertoast: ^8.2.4
+  google_fonts: ^6.1.0
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/bmi_chart.png
+     - assets/bmi_info.png
+     - assets/bmibackground.png
+     - assets/diet_background.png
+     - assets/diet_default.png
+     - assets/normal_diet.png
+     - assets/obese_diet.png
+     - assets/overweight_diet.png
+     - assets/underweight_diet.png
+     - assets/exercise_background.png
+     - assets/normal_exercise.png
+     - assets/obese_exercise.png
+     - assets/overweight_exercise.png
+     - assets/underweight_exercise.png
+
+  # fonts:
+  #   - family: OpenSans
+  #     fonts:
+  #       - asset: assets/fonts/OpenSans-Regular.ttf
+  #       - asset: assets/fonts/OpenSans-Bold.ttf
+  #         weight: 700

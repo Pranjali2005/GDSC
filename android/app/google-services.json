@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "701348151619",
+    "project_id": "bmipro-b4255",
+    "storage_bucket": "bmipro-b4255.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701348151619:android:bab6ea69dcf218c9f0aff6",
+        "android_client_info": {
+          "package_name": "com.example.bmipro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqV7QlcOCJk5sCCBIIi5G4TZ1RfE2ooa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
